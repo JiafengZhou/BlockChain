@@ -4,8 +4,7 @@
 
 - [英文文档 by jeiwan](https://jeiwan.cc/)
 - [中文文档 by liuchengxu](https://github.com/liuchengxu/blockchain-tutorial)
-
-
+- [以太坊源码分析](https://github.com/ZtesoftCS/go-ethereum-code-analysis)
 
 ### 2. 教程大纲
 
