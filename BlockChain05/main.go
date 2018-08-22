@@ -1,0 +1,17 @@
+package main
+
+import (
+	"./BLC"
+	"fmt"
+)
+
+func main() {
+	blockChain := BLC.CreateBlockchainWithGenesisBlock()
+
+	blockChain.AddBlockToBlockchain("Send 100RMB To zhangqiang", blockChain.Blocks[len(blockChain.Blocks)-1].Height+1, blockChain.Blocks[len(blockChain.Blocks)-1].Hash)
+	blockChain.AddBlockToBlockchain("Send 200RMB To changjingkong", blockChain.Blocks[len(blockChain.Blocks)-1].Height+1, blockChain.Blocks[len(blockChain.Blocks)-1].Hash)
+	blockChain.AddBlockToBlockchain("Send 300RMB To zhangying", blockChain.Blocks[len(blockChain.Blocks)-1].Height+1, blockChain.Blocks[len(blockChain.Blocks)-1].Hash)
+	blockChain.AddBlockToBlockchain("Send 400RMB To zhangying", blockChain.Blocks[len(blockChain.Blocks)-1].Height+1, blockChain.Blocks[len(blockChain.Blocks)-1].Hash)
+	fmt.Println("----------------------------------------------------")
+	fmt.Println(blockChain)
+}
