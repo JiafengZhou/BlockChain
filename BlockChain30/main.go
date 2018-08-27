@@ -1,7 +1,7 @@
 package main
 
 import (
-	"kongyixueyuan.com/publicChain/part30-transaction-UTXO-send/BLC"
+	"./BLC"
 )
 
 func main() {
